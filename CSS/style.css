@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', 'josefin', sans-serif;
+}
+
+.resize  {
+    width: 100%;
+}
+
+.mockup {
+    width: 100%;
+}
+
+.header {
+    background-image: url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    display: flex;
+    padding: 30px;
+
+}
+
+#upper-logo {
+    width: 150px;
+    padding-left: 20px;
+}
+
+.sub-content {
+    margin-top: 20px;
+    padding: 70px 30px;
+}
+
+h1
+h2 
+{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Open sans';
+    font-weight: 400;
+    padding-top: 20px
+}
+
+h3 {
+    font-family: 'Open sans';
+    font-weight: 400;
+    position: relative;
+    top: 100px;
+}
+
+.middle h2 {
+    font-weight: 300 ;
+   
+}
+
+.main {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.primary {
+    background: hsl(322, 100%, 66%);
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    border: 0px;
+    width: 50%;
+}
+
+.secondary {
+    float: right;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px;
+    width: 100px;
+    padding: 5px;
+}
+
+.sub-img {
+    padding-top: 50px;
+}
+
+.grow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0px 10px 0px hsl(208, 11%, 55%);
+    border-radius:10px;
+    padding: 50px;
+    height: 500px;
+    margin: 15px;
+}
+
+.grow-content {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+
+.grow-img {
+    padding: 20px;
+}
+
+.flowing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0px 10px 0px hsl(208, 11%, 55%);
+    border-radius: 10px;
+    padding: 50px;
+    height: 500px;
+    margin: 15px;
+}
+
+.flowing-content {
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 0px 10px 0px hsl(208, 11%, 55%);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
+    height: 500px;
+}
+
+.users-content {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.middle {
+    box-shadow: 0px 0px 10px 0px hsl(208, 11%, 55%);
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin: 10px auto;
+    position: relative;
+    top: 105px;
+    background-color: #fff;
+}
+
+.second-primary {
+    background-color: hsl(322, 100%, 66%);
+    width: 320px;
+    padding: 15px;
+    border: 0px;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+footer {
+    background-color: hsl(211, 79%, 6%);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 50px;
+    width: 100%;
+}
+
+footer #invert {
+    filter: invert(100%) sepia(100%) grayscale(100%);
+    margin-top: 90px;
+    padding-left: 20px;
+}
+
+.company-info {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
+    margin-top: 130px;
+}
+
+li {
+    list-style: none;
+    line-height: 2;
+}
+
+li > img {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+}
+
+li > p {
+    position: relative;
+    padding-left: 30px;
+    bottom: 30px;
+}
+
+.phone,
+.email {
+    margin-top: -50px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    filter: grayscale(100%) invert(100%);
+    margin-top: 50px;
+}
+
+.extend {
+    text-align: center;
+}
+
+.media {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid rgb(228, 9, 9);
+   border-radius: 50%; 
+}
+
+.extend {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+
+.bottom {
+    text-align: center;
+}
+
+.bottom a {
+    text-decoration: none;
+}
+
+
+
